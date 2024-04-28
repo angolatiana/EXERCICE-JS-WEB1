@@ -55,7 +55,7 @@ h2{
     border-radius: 1rem;
     margin: 0.5rem 3rem;
 }
-input{
+.insertion{
     height: 2rem;
     width: 80%;
     border: none;
@@ -69,8 +69,20 @@ button{
     border-radius: 0.5rem;
 }
 
-.score{
+.score p{
     margin-top: 1rem;
     font-size: 1.5rem;
     color: white;
+}
+.score{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 0 22rem;
+}
+#point{
+    border: none;
+    margin-top: 3vh;
+    font-size: 1rem;
+    background: none;
 }
