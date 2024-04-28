@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tête{
+    text-align: center;
+    margin: 2rem 0;
+}
+h1{
+    font-size: 5rem;
+    color: rgb(234, 121, 15);
+    margin-bottom: 1rem;
+}
+h2{
+    font-size: 2rem;
+    color: rgb(220, 157, 22);
+    margin-bottom: 2rem;
+}
+
+
+.boxe{
+    background-color: rgb(234, 168, 15);
+    margin: 0 10rem;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.option{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 2rem 25rem;
+    justify-content: space-between;
+}
+
+.mots , .Phrases{
+    height: 1.2vh;
+    width: 0.7vw;
+    border-radius: 50%;
+    border: none;
+    margin-top: 0.9vh;
+}
+
+.option1 , .option2{
+    display: flex;
+    flex-direction:row;
+}
+
+.Azerty{
+    background-color: white;
+    font-size: 3rem;
+    padding: 1rem 10rem;
+    border-radius: 1rem;
+    margin: 0.5rem 3rem;
+}
+input{
+    height: 2rem;
+    width: 80%;
+    border: none;
+    border-radius: 0.5rem;
+}
+button{
+    height: 2rem;
+    width: 10%;
+    background-color: white;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.score{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color: white;
+}
